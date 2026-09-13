@@ -83,9 +83,12 @@ export default function Students() {
     setShowModal(false)
   }
 
-  const handleDelete = (id: number) => {
+  const handleDelete = async (id: number) => {
     if (!confirm('Remove this student?')) return
     setStudents(prev => prev.filter(s => s.id !== id))
+    try {
+      await fetch(`${API_BASE_URL}/students/${id}`, { method: 'DELETE' })
+    } catch {}
   }
 
   return (
