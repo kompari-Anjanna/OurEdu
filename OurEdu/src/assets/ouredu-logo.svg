@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">OurEdu logo</title>
+  <desc id="desc">Blue and orange college crest with graduation cap and open book</desc>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1269c9"/><stop offset="1" stop-color="#00245f"/></linearGradient>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb000"/><stop offset="1" stop-color="#ff6b00"/></linearGradient>
+  </defs>
+  <path d="M260 24 464 122v190c0 93-83 151-204 184C139 463 56 405 56 312V122L260 24Z" fill="url(#blue)" stroke="#0b3b82" stroke-width="10"/>
+  <path d="m88 139 172-82 172 82-172 82L88 139Z" fill="#0b2e70" stroke="#3c9df4" stroke-width="8"/>
+  <path d="m112 142 148 68 148-68-148 52-148-52Z" fill="#1e7fd9"/>
+  <path d="M179 210h162v55c-44 27-118 27-162 0v-55Z" fill="#0758b4" stroke="#65b5ff" stroke-width="7"/>
+  <path d="M260 218c-42-26-91-24-126-4l126 72 126-72c-35-20-84-22-126 4Z" fill="#38a1f5" stroke="#d4edff" stroke-width="5"/>
+  <path d="M260 218c42-26 91-24 126-4l-126 72V218Z" fill="#1677ce"/>
+  <path d="M207 311h106M220 311v46m26-46v46m28-46v46m26-46v46M190 370h140" fill="none" stroke="#d7ecff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="260" cy="188" r="10" fill="#ff9d00"/>
+  <path d="M260 85c30 0 57 16 71 41h-142c14-25 41-41 71-41Z" fill="url(#orange)"/>
+  <path d="M260 84v-28m-39 45-18-24m96 24 18-24m-57 19V57" stroke="#ff9d00" stroke-width="9" stroke-linecap="round"/>
+  <text x="260" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="62" font-weight="800" fill="#0b4f9f">Our<tspan fill="#ff8a00">Edu</tspan></text>
+</svg>

@@ -1,0 +1,6 @@
+node_modules
+dist
+OurEdu/dist
+backend/.env
+mysql-data
+*.log
