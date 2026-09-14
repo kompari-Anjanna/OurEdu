@@ -1,5 +1,16 @@
 {
+  "name": "ouredu",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "cd OurEdu && npm run dev",
+    "build": "cd OurEdu && npm run build",
+    "start": "node api/server.js"
+  },
   "dependencies": {
-    "firebase": "^12.19.0"
+    "firebase": "^12.19.0",
+    "express": "^4.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
   }
 }
